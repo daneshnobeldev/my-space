@@ -1,6 +1,7 @@
 const YEAR = new Date().getFullYear()
 
 export default {
+  
   footer: (
     <footer>
       <small>
@@ -14,8 +15,9 @@ export default {
         a {
           float: right;
         }
-      `}</style> 
+      `}</style>
     </footer>
   ),
-  darkMode:false
+  darkMode: true,
+
 }
